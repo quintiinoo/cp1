@@ -1,18 +1,23 @@
 #!/bin/bash
 ssh linuxzoo.net
 #[enter you password]
-cal 2002
-mkdir yearfile
-mkdir yearfile2
-mkdir yearfile3
-cp cal 2005 /demo/yearfile
-ls -s
-cp yearfile yearfile2
-cp yearfile yearfile3
-rename yearfile3
-2021
-rm yearfile
-cat 2021 yearfile2 yearfile3 > bigfile
+[demo @ host-1-33 ~] $ ls -R
+.:
+bigfile letters scripts este mês este ano de trabalho yearfile2
+
+./letras:
+
+./scripts:
+
+./trabalhos:
+tutorial progs misc
+
+./work/misc:
+
+./work/progs:
+
+./work/tutorial:
+[demo @ host-1-33 ~] $
 cd ~/linux-comandos/exemplos-awk/
 cat usuarios.txt 
 Jon Snow;jonsnostark.com;Fantasma
@@ -60,3 +65,68 @@ let divisao=$numero1/$numero2
 echo “$numero1 / $numero2 =” $divisao 
 let resto=$numero1%$numero2 
 echo “$numero1 % $numero2 =” $resto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
